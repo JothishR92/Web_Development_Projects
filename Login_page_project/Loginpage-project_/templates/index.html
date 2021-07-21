@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login page</title>
+	
+	<link rel="stylesheet" type="text/css" href="../static/css/login_setup.css">
+	<script type="text/javascript" src="../static/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../static/js/login.js"></script>
+	
+</head>
+<body>
+
+	<div class="login-form">
+		<ul class="tab-group">
+        	<li class="tab active"><a href="#login">login</a></li>
+        	<li class="tab"><a href="#signup">signup</a></li>
+      	</ul>
+      	<div class="tab-content">
+        	<div class="login-setup" id="login">
+				<form action="" method="POST">
+			
+					<div id="login">
+						<input type="text" id="username" placeholder="Email" name="user" value="">
+						<input type="password" id="password" placeholder="Password" name="pwd" value="">
+						<a href="forget-password.html" target="_blank">Forget-password?</a>
+						<button id="submit"> login </button>
+					</div>
+				</form>
+			</div>
+			<div class="signup-setup" id="signup">
+				<form action="" method="POST">
+					<input type="text" id="user" placeholder="Username" name="username" value="">
+					<input type="text" id="email-id" placeholder="Email" name="email" value="">
+					<input type="password" id="pwd" placeholder="Password" name="pwd" value="">
+					<input type="password" id="c_password" placeholder="Confirm password" name="pwd" value="">
+					
+					<input type="text" id="mobile_no" placeholder="Mobile number" name="mobile" value="">
+					<button id="signup-submit" onclick="">submit</button> 
+				</form>
+			
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

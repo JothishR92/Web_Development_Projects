@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>unit-convertor</title>
+	<script type="text/javascript" src="../static/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="../static/js/conversion_jquery.js"></script>
+	<link rel="stylesheet" href="../static/css/convertor_style.css">
+</head>
+<body>
+	<center>
+	<header>
+		<h1>Unit Conversion</h1>
+	</header><br><br>
+</center>
+	
+	<div class="convert">
+		<form  id ="convertor_form" class="conversion" action="" method="post">
+			
+				BYTES     :<br> <input type="text" id="convert_bytes" name="convert_bytes" value=""><br>
+				KILO-BYTES:<br><input type="text" id="convert_kilobytes" name="convert_bytes" value=""><br>
+				MEGA-BYTES:<br><input type="text" id="convert_megabytes" name="convert_bytes" value=""><br>
+				GIGA-BYTES:<br><input type="text" id="convert_gigabytes" name="convert_bytes" value=""><br><br>
+				<input type="button" id="convert" value="convert" onclick="return conversion()"> 
+				<input type="reset" id="reset" value="reset"> 
+		
+		</form>
+	
+	</div>
+</body>
+</html>

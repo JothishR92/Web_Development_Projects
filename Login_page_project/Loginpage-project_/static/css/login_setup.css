@@ -1,0 +1,100 @@
+body{
+	background-image: url('../images/bg.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.login-form{
+	
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: 380px;
+	max-width: 600px;
+	padding: 40px;
+	margin: 40px auto;
+    border-radius: 4px;
+	transition: .5s ease;
+}
+.head {
+	margin: 0;
+	padding: 0 0 20px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+ .tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+.tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  float: left;
+  width: 45%;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s ease;
+  margin-bottom: 40px;
+}
+.tab-group li a:hover {
+  background: #179b77;
+  color: #ffffff;
+}
+.tab-group .active a {
+  background: #1ab188;
+  color: #ffffff;
+}
+.tab-content > div:last-child {
+  display: none;
+}
+
+input {
+  font-size: 22px;
+  display: block;
+  width: 94%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 0;
+  transition: border-color .25s ease, box-shadow .25s ease;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+
+input:focus{
+  outline: 0;
+  border-color: #000;
+}
+
+button {
+	width: 50%;
+	border: none;
+	outline: none;
+	border-radius: 13px;
+	background:  #1ab188;
+	margin-left: 25%;
+	margin-top: 20px;
+	height: 45px;
+	color: #fcfcfc;
+	font-size: 22px;
+	cursor:pointer;
+}
+a {
+	color:  #fff;
+}
+a:hover {
+	color:  #1ab188;
+}

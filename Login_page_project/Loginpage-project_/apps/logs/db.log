@@ -1,0 +1,32 @@
+2020-05-17 08:33:27,146 Database connected successfully...
+2020-05-17 08:33:27,173 [INCORRECT] Username and Password is INcorrect...!
+2020-05-17 08:34:36,460 Database connected successfully...
+2020-05-17 08:34:36,462 [INCORRECT] Username and Password is INcorrect...!
+2020-05-17 08:42:22,042 Database connected successfully...
+2020-05-17 08:42:22,044 name 'usernames' is not defined
+2020-05-17 08:42:58,373 Database connected successfully...
+2020-05-17 08:42:58,375 [CORRECT] Username and Password is correct...!
+2020-05-17 09:00:29,299 Database connected successfully...
+2020-05-17 09:00:29,300 [CORRECT] Username and Password is correct...!
+2020-05-17 09:00:29,315  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-05-17 09:00:53,897 127.0.0.1 - - [17/May/2020 09:00:53] "[37mGET / HTTP/1.1[0m" 200 -
+2020-05-17 09:00:54,004 127.0.0.1 - - [17/May/2020 09:00:54] "[36mGET /static/css/login_setup.css HTTP/1.1[0m" 304 -
+2020-05-17 09:00:54,010 127.0.0.1 - - [17/May/2020 09:00:54] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2020-05-17 09:00:54,014 127.0.0.1 - - [17/May/2020 09:00:54] "[36mGET /static/js/jquery-1.11.3.min.js HTTP/1.1[0m" 304 -
+2020-05-17 09:00:54,149 127.0.0.1 - - [17/May/2020 09:00:54] "[36mGET /static/images/bg.jpg HTTP/1.1[0m" 304 -
+2020-05-17 09:00:54,427 127.0.0.1 - - [17/May/2020 09:00:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2020-05-17 09:01:20,543 Database connected successfully...
+2020-05-17 09:01:20,546 [CORRECT] Username and Password is correct...!
+2020-05-17 09:01:20,547 127.0.0.1 - - [17/May/2020 09:01:20] "[37mPOST /login-page HTTP/1.1[0m" 200 -
+2020-05-17 09:02:07,802 Database connected successfully...
+2020-05-17 09:02:07,843 Successfully inserted value in database...!
+2020-05-17 09:02:07,845 127.0.0.1 - - [17/May/2020 09:02:07] "[37mPOST /signup-page HTTP/1.1[0m" 200 -
+2020-05-17 09:02:41,620 Database connected successfully...
+2020-05-17 09:02:41,622 [CORRECT] Username and Password is correct...!
+2020-05-17 09:02:41,626 127.0.0.1 - - [17/May/2020 09:02:41] "[37mPOST /login-page HTTP/1.1[0m" 200 -
+2020-05-17 09:03:19,266 127.0.0.1 - - [17/May/2020 09:03:19] "[37mGET / HTTP/1.1[0m" 200 -
+2020-05-17 09:03:19,296 127.0.0.1 - - [17/May/2020 09:03:19] "[37mGET /static/css/login_setup.css HTTP/1.1[0m" 200 -
+2020-05-17 09:03:19,314 127.0.0.1 - - [17/May/2020 09:03:19] "[37mGET /static/js/jquery-1.11.3.min.js HTTP/1.1[0m" 200 -
+2020-05-17 09:03:19,315 127.0.0.1 - - [17/May/2020 09:03:19] "[37mGET /static/js/login.js HTTP/1.1[0m" 200 -
+2020-05-17 09:03:19,351 127.0.0.1 - - [17/May/2020 09:03:19] "[37mGET /static/images/bg.jpg HTTP/1.1[0m" 200 -
+2020-05-17 09:03:19,412 127.0.0.1 - - [17/May/2020 09:03:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
