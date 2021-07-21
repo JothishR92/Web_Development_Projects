@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<script type="text/javascript" src="../static/js/calculation.js">
+	<link rel="stylesheet" type="text/css" href="../static/css/calculator.css">
+
+	</script>	
+</head>
+<body>
+	<div class="main">
+        <center>
+		<!-- <form name = "calculator" action="http://10.132.243.88:5000/output " method="post"> -->
+			<input id="textbox" type="text" name="textview">
+			<br>
+			<input id="textbox1" type="text" name="output" value="">
+		<table>
+			<tr>
+				<td> <input id="rbtn" type="button" class="button" value="√" onclick="document.getElementById('textbox').value += ' √ ' "> </td>
+				<td> <input id="square" type="button" class="button" value="sq" onclick="document.getElementById('textbox').value += ' ^2 ' "> </td>
+				<td> <input id="bckspce" type="button" class="button" value="⌫" onclick="back()"> </td>
+				<td> <input id="divide" type="button" class="button" value="/" onclick="document.getElementById('textbox').value += ' / ' "> </td>
+			</tr>
+			<tr>
+				<td> <input id="num7" type="button" class="button" value="7" onclick="document.getElementById('textbox').value += '7' "> </td>
+				<td> <input id="num8" type="button" class="button" value="8"onclick="document.getElementById('textbox').value += '8' "> </td>
+				<td> <input id="num9" type="button" class="button" value="9"onclick="document.getElementById('textbox').value += '9' "> </td>
+				<td> <input id="multiply" type="button" class="button" value="x" onclick="document.getElementById('textbox').value += '*' "></td>
+			</tr>
+			<tr>
+				<td> <input id="num4" type="button" class="button" value="4" onclick="document.getElementById('textbox').value += '4' "> </td>
+				<td> <input id="num5" type="button" class="button" value="5" onclick="document.getElementById('textbox').value += '5' "> </td>
+				<td> <input id="num6" type="button" class="button" value="6" onclick="document.getElementById('textbox').value += '6' "> </td>
+				<td> <input id="minus" type="button" class="button" value="-" onclick="document.getElementById('textbox').value += ' - ' "> </td>
+			</tr>
+			<tr>
+				<td> <input id="num1" type="button" class="button" value="1" onclick="document.getElementById('textbox').value += '1' "> </td>
+				<td> <input id="num2" type="button" class="button" value="2" onclick="document.getElementById('textbox').value += '2' "> </td>
+				<td> <input id="num3" type="button" class="button" value="3" onclick="document.getElementById('textbox').value += '3' "> </td>
+				<td> <input id="plus" type="button" class="button" value="+" onclick="document.getElementById('textbox').value += ' + ' "> </td>
+			</tr>
+			<tr>
+				<td> <input id="reset" type="button" class="button" value="c" onclick="document.getElementById('textbox').value = '' " id="clear"> </td>
+				<td> <input id="num0" type="button" class="button" value="0" onclick="document.getElementById('textbox').value += '0' " > </td>
+				<td> <input id="dot" type="button" class="button" value="." onclick="document.getElementById('textbox').value += '.' "> </td>
+				<td> <input id="equal" type="button" class="button" value="=" onclick="return loadDoc();"> </td>
+			</tr>
+		</table>
+		<!-- </form>-->
+	</center>
+</div>
+
+</body>
+</html>
